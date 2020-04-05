@@ -1,0 +1,67 @@
+
+button {
+    display: inline-block;
+    background-color: transparent;
+    font: 12pt Impact, fantasy;
+    color: black;
+    margin: 10px;
+}
+
+
+button:hover {
+    background-color: #CEC;
+}
+
+.centered {
+    text-align: center;
+    margin: auto auto;
+}
+
+input {
+    background-color: #6a6866;
+    width: 90%;
+    font: 12pt sans-serif;
+    color: black;
+    text-align: center;
+}
+
+#password{
+    text-align: left;
+}
+
+#username{
+    text-align: left;
+}
+
+::placeholder{
+    color: black;
+}
+
+.label {
+    font: 14pt sans-serif;
+}
+
+/*.login-form {
+    width: 400px;
+    min-width: 300px;
+}
+
+.login-form.p-panel .p-panel-content {
+    padding: 25px 15px;
+}
+
+.login-form .p-float-label + .p-float-label {
+    margin-top: 25px;
+}
+
+.login-form.p-panel input {
+    width: 100%;
+}
+
+.login-form__buttons {
+    margin-top: 25px;
+}
+
+.login-form__buttons button + button {
+    margin-left: 15px;
+}*/

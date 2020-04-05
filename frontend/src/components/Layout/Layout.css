@@ -1,0 +1,25 @@
+
+.container {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+@media (min-width: 788px) {
+    .container {
+        width: 760px;
+    }
+}
+
+@media (min-width: 1037px) {
+    .container {
+        width: 1000px;
+        min-height: 400px;
+    }
+}
