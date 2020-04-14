@@ -1,6 +1,5 @@
 import React from 'react';
 import { compose } from 'redux';
-import { Panel } from 'primereact/panel';
 
 import { Query } from '../../models/query';
 
@@ -8,7 +7,6 @@ import './AreaForm.css';
 import { htmlInputEventExtractor } from '../../utils/htmlInputEventExtractor';
 import { customDispatcher } from '../../utils/customDispatcher';
 
-const SLIDER_ZOOM = 1e10;
 
 export interface AreaFormProps {
 
